@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_sections_sections",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "paragraph": {
+      "type": "component",
+      "component": "paragraph.long",
+      "repeatable": true
+    },
+    "focusAreas": {
+      "type": "component",
+      "component": "focus-areas.focus-areas",
+      "repeatable": true
+    },
+    "stats": {
+      "type": "component",
+      "component": "stats.stats",
+      "repeatable": true
+    },
+    "highlights": {
+      "type": "component",
+      "component": "highlights.highlights",
+      "repeatable": true
+    },
+    "resumeUrl": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "email": {
+      "type": "email"
+    }
+  },
+  "config": {}
+}

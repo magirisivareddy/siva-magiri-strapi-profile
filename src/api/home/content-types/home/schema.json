@@ -10,5 +10,19 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "seo.seo",
+      "repeatable": false
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.skills",
+        "sections.sections",
+        "sections.hero"
+      ]
+    }
+  }
 }

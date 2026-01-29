@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_focus_areas_focus_areas",
+  "info": {
+    "displayName": "focusAreas"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

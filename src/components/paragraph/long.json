@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_paragraph_longs",
+  "info": {
+    "displayName": "long"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
